@@ -16,7 +16,7 @@ function checkAuthentication(data)
    // if (response.username === '')
    //    window.location.replace(response.redirect);
    // else
-   {
+   // {
       ReactDOM.render
       (
          <div>
@@ -27,7 +27,7 @@ function checkAuthentication(data)
          </div>,
          document.getElementById('root')
       );
-   }
+   // }
 }
 
 // fetch('/authenticate')
